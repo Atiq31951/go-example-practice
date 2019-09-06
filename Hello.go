@@ -9,7 +9,7 @@ func main () {
 	foo()
 }
 
-func string foo () {
+func foo () {
 	var x = name + "How Are you"
-	fmt.Printf("%T %v\n", x, x)
+	fmt.Printf("Type of x is => %T, and Value is ==> %s\n", x, x)
 }
